@@ -9,13 +9,11 @@
     transition: var(--transform-hover);
     &:focus {
             color: var(--focus-color);
-    
         }
 }
 
 .nav__logo span {
     color: var(--focus-color);
-
 }
 
 .logo__footer {
@@ -62,8 +60,6 @@
 
 .cont-color {
     color: var(--alert-text);
-
-
 }
 
 .active {
@@ -75,8 +71,6 @@
 }
 
 .active::after {
-
-
     content: "";
     position: absolute;
     bottom: -1px;

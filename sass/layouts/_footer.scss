@@ -14,13 +14,10 @@
 
     color: var(--item-bg-color);
     transition: var(--transform-hover);
-
-}
-
-.nav-address:hover,
-.nav-address:focus {
-    color: var(--focus-color);
-
+    &:hover,
+    &:focus {
+            color: var(--focus-color);
+        }
 }
 
 .mail-address {
@@ -29,21 +26,18 @@
     font-size: 14px;
     font-style: normal;
     line-height: calc(24 / 14);
-    /* or 171% */
 
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: var(--transform-hover);
+    &:hover,
+    &:focus {
+            color: var(--focus-color);
+        }
 }
 
 .footer-ul-margin {
     margin: 9px 0px 9px 0px;
-}
-
-.mail-address:hover,
-.mail-address:focus {
-    color: var(--focus-color);
-
 }
 
 .address-contacts {
@@ -52,18 +46,15 @@
     font-size: 14px;
     font-style: normal;
     line-height: calc(24 / 14);
-    /* or 171% */
 
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
     transition: var(--transform-hover);
-}
-
-.address-contacts:hover,
-.address-contacts:focus {
-    color: var(--focus-color);
-
+    &:hover,
+    &:focus {
+            color: var(--focus-color);
+        }
 }
 
 .footer-title {
@@ -109,24 +100,20 @@
 
     color: var(--item-bg-color);
     background: var(--footer-bg-color);
-}
-
-
-
-.input__footer::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--main-team-font-size);
-    line-height: calc(20 / 16);
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
-}
-
+    &::placeholder {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: var(--main-team-font-size);
+            line-height: calc(20 / 16);
+    
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+    
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
 .input__footer-btn {
     outline: none;
     display: block;
@@ -154,17 +141,16 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    &:focus {
+            background-color: var(--focus-color);
+        }
+    &:hover {
+            background-color: #188ce8;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        }
 }
 
-.input-footer__btn:focus {
-    background-color: var(--focus-color);
-}
 
-.input-footer__btn:hover {
-    background-color: #188ce8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-}
 
 .footer-input-icon {
     position: absolute;
@@ -191,13 +177,10 @@
 
     color: var(--item-bg-color);
     transition: var(--transform-hover);
-
-}
-
-.nav-address:hover,
-.nav-address:focus {
-    color: var(--focus-color);
-
+    &:hover,
+    &:focus {
+            color: var(--focus-color);
+        }
 }
 
 .mail-address {
@@ -206,21 +189,18 @@
     font-size: 14px;
     font-style: normal;
     line-height: calc(24 / 14);
-    /* or 171% */
 
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: var(--transform-hover);
+    &:hover,
+    &:focus {
+            color: var(--focus-color);
+        }
 }
 
 .footer-ul-margin {
     margin: 9px 0px 9px 0px;
-}
-
-.mail-address:hover,
-.mail-address:focus {
-    color: var(--focus-color);
-
 }
 
 .address-contacts {
@@ -235,12 +215,10 @@
 
     color: rgba(255, 255, 255, 0.6);
     transition: var(--transform-hover);
-}
-
-.address-contacts:hover,
-.address-contacts:focus {
-    color: var(--focus-color);
-
+    &:hover,
+    &:focus {
+            color: var(--focus-color);
+        }
 }
 
 .footer-title {
@@ -286,22 +264,19 @@
 
     color: var(--item-bg-color);
     background: var(--footer-bg-color);
-}
-
-
-
-.input__footer::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--main-team-font-size);
-    line-height: calc(20 / 16);
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
+    &::placeholder {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: var(--main-team-font-size);
+            line-height: calc(20 / 16);
+    
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+    
+            color: rgba(255, 255, 255, 0.6);
+        }
 }
 
 .input__footer-btn {
@@ -358,7 +333,7 @@
 }
 
 .section-icon {
-    padding: 94px 0px 94px 0
+    padding: 94px 0px 94px 0;
 }
 
 .ico__nav {

@@ -427,7 +427,6 @@ body {
 .portfolio-list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .portfolio-list:hover .portfolio-wrap__text {
   transform: translateY(0);
 }
@@ -500,9 +499,7 @@ body {
   color: var(--item-bg-color);
   transition: var(--transform-hover);
 }
-
-.nav-address:hover,
-.nav-address:focus {
+.nav-address:hover, .nav-address:focus {
   color: var(--focus-color);
 }
 
@@ -512,19 +509,16 @@ body {
   font-size: 14px;
   font-style: normal;
   line-height: 1.7142857143;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: var(--transform-hover);
 }
+.mail-address:hover, .mail-address:focus {
+  color: var(--focus-color);
+}
 
 .footer-ul-margin {
   margin: 9px 0px 9px 0px;
-}
-
-.mail-address:hover,
-.mail-address:focus {
-  color: var(--focus-color);
 }
 
 .address-contacts {
@@ -533,14 +527,11 @@ body {
   font-size: 14px;
   font-style: normal;
   line-height: 1.7142857143;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: var(--transform-hover);
 }
-
-.address-contacts:hover,
-.address-contacts:focus {
+.address-contacts:hover, .address-contacts:focus {
   color: var(--focus-color);
 }
 
@@ -583,7 +574,6 @@ body {
   color: var(--item-bg-color);
   background: var(--footer-bg-color);
 }
-
 .input__footer::-moz-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -595,7 +585,6 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .input__footer:-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -607,7 +596,6 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .input__footer::placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -644,12 +632,10 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
-.input-footer__btn:focus {
+.input__footer-btn:focus {
   background-color: var(--focus-color);
 }
-
-.input-footer__btn:hover {
+.input__footer-btn:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -677,9 +663,7 @@ body {
   color: var(--item-bg-color);
   transition: var(--transform-hover);
 }
-
-.nav-address:hover,
-.nav-address:focus {
+.nav-address:hover, .nav-address:focus {
   color: var(--focus-color);
 }
 
@@ -689,19 +673,16 @@ body {
   font-size: 14px;
   font-style: normal;
   line-height: 1.7142857143;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: var(--transform-hover);
 }
+.mail-address:hover, .mail-address:focus {
+  color: var(--focus-color);
+}
 
 .footer-ul-margin {
   margin: 9px 0px 9px 0px;
-}
-
-.mail-address:hover,
-.mail-address:focus {
-  color: var(--focus-color);
 }
 
 .address-contacts {
@@ -715,9 +696,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   transition: var(--transform-hover);
 }
-
-.address-contacts:hover,
-.address-contacts:focus {
+.address-contacts:hover, .address-contacts:focus {
   color: var(--focus-color);
 }
 
@@ -760,7 +739,6 @@ body {
   color: var(--item-bg-color);
   background: var(--footer-bg-color);
 }
-
 .input__footer::-moz-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -772,7 +750,6 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .input__footer:-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -784,7 +761,6 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .input__footer::placeholder {
   font-family: "Roboto";
   font-style: normal;
