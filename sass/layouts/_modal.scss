@@ -14,8 +14,6 @@
 
 }
 
-
-
 .modal {
     width: 528px;
     background-color: var(--item-bg-color);
@@ -150,28 +148,22 @@
     left: 12px;
 }
 
-
-
-
-
 .chec {
     position: relative;
-
     align-items: baseline;
     margin-left: 12px;
     appearance: none;
     border-radius: 2px;
     background-color: var(--alert-text);
-    &:checked+.policy-text span {
-            background-color: var(--focus-color);
-            border: none;
-        }
-    
-    &:checked+.policy-text span {
-            border-color: var(--color-all-text);
-        }
+}
 
+.chec:checked+.policy-text span {
+    background-color: var(--focus-color);
+    border: none;
+}
 
+.chec:checked+.policy-text span {
+    border-color: var(--color-all-text);
 }
 
 .chec-svg {
@@ -186,9 +178,16 @@
     border: 2px solid var(--color-all-text);
 
     transition: var(--transform-hover);
+    &:checked+.policy-text span {
+            background-color: var(--focus-color);
+            border: none;
+        }
+    
+    &:checked+.policy-text span {
+            border-color: var(--color-all-text);
+        }
+    
 }
-
-
 
 .policy__text {
     display: flex;
@@ -198,13 +197,14 @@
     font-size: var(--alert-font-size-text);
     line-height: calc(24 / 14);
 
-
     align-items: center;
     letter-spacing: 0.03em;
 
 
     color: var(--color-text);
+    
 }
+
 
 .policy-link {
     border-bottom: 1px solid var(--focus-color);
@@ -217,7 +217,6 @@
     display: flex;
     margin-bottom: 30px;
 }
-
 
 .policy-btn {
     display: block;
@@ -254,4 +253,3 @@
     width: 11px;
     height: 8px;
 }
-
