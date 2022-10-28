@@ -1,0 +1,9 @@
+:root {
+    --font-size-h: 36px;
+    --alert-font-size-text: 14px;
+    --main-teem-font-size: 16px;
+    --main-team-font-size-big: 18px;
+    --transform-hover: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transform-hover-shadov: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

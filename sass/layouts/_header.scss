@@ -1,0 +1,141 @@
+.nav__logo {
+    font-family: var(--other-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+    color: var(--color-all-text);
+    letter-spacing: 0.03em;
+    margin-right: 19px;
+    transition: var(--transform-hover);
+    &:focus {
+            color: var(--focus-color);
+    
+        }
+}
+
+.nav__logo span {
+    color: var(--focus-color);
+
+}
+
+.logo__footer {
+    display: block;
+    font-family: var(--other-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+    color: var(--item-bg-color);
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    margin-bottom: 20px;
+    transition: var(--transform-hover);
+    &:focus {
+            color: var(--focus-color);
+    
+        }
+
+}
+
+.logo__footer span {
+    color: var(--focus-color);
+}
+
+.nav__studio {
+    display: inline-block;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    padding: 32px 0px;
+    display: block;
+    transition: var(--transform-hover);
+    &:hover,
+    &:focus {
+            color: var(--focus-color);
+    
+        }
+}
+
+.cont-color {
+    color: var(--alert-text);
+
+
+}
+
+.active {
+    color: var(--focus-color);
+}
+
+.stydio-list {
+    position: relative;
+}
+
+.active::after {
+
+
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    display: flex;
+    width: 100%;
+    height: 4px;
+    background-color: var(--focus-color);
+    border-radius: 2px;
+}
+
+.nav-flax {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.item-btn-flax {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.not-nav-item-flax {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.figure-bg__ico {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+}
+
+.figure-bg {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+
+    background-color: #F5F4FA;
+    transition: var(--transform-hover-shadov);
+    &:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        
+}
+
+.figure-interval {
+    margin-right: 30px;
+}
+
+.figure-bg:last-child {
+    margin-right: 0;
+}
+
+.figure-list {
+    display: flex;
+}
