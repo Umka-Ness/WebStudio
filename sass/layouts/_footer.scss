@@ -90,7 +90,7 @@
     color: var(--item-bg-color);
 }
 
-.input__footer {
+.footer__input {
     padding: 15px 0px 15px 16px;
     width: 358px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -114,7 +114,7 @@
             color: rgba(255, 255, 255, 0.6);
         }
     }
-.input__footer-btn {
+.footer__input-btn {
     outline: none;
     display: block;
     width: 200px;
@@ -254,7 +254,7 @@
     color: var(--item-bg-color);
 }
 
-.input__footer {
+.footer__input {
     padding: 15px 0px 15px 16px;
     width: 358px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -279,7 +279,7 @@
         }
 }
 
-.input__footer-btn {
+.footer__input-btn {
     outline: none;
     display: block;
     width: 200px;
@@ -336,7 +336,7 @@
     padding: 94px 0px 94px 0;
 }
 
-.ico__nav {
+.nav__ico {
     margin-right: 10px;
     fill: currentColor;
     width: 10px;
@@ -344,6 +344,7 @@
     vertical-align: middle;
 }
 
+.mail {}
 .mail__nav {
     margin-right: 10px;
     fill: currentColor;
@@ -353,7 +354,7 @@
     vertical-align: middle;
 }
 
-.poz {
+.footer {
     position: relative;
     margin-left: auto;
 }

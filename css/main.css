@@ -152,7 +152,7 @@ address {
   border-radius: 2px;
 }
 
-.nav-flax {
+.nav {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -396,7 +396,7 @@ body {
   border: 1px solid #EEEEEE;
 }
 
-.portfolio-wrap__name {
+.photo__name {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: var(--main-team-font-size-big);
@@ -406,7 +406,7 @@ body {
   color: var(--alert-text);
 }
 
-.portfolio-wrap__two-text {
+.photo__two-text {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: var(--main-teem-font-size);
@@ -427,7 +427,7 @@ body {
 .portfolio-list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-list:hover .portfolio-wrap__text {
+.portfolio-list:hover .photo__text {
   transform: translateY(0);
 }
 
@@ -436,7 +436,7 @@ body {
   overflow: hidden;
 }
 
-.portfolio-wrap__text {
+.photo__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -564,7 +564,7 @@ body {
   color: var(--item-bg-color);
 }
 
-.input__footer {
+.footer__input {
   padding: 15px 0px 15px 16px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -574,7 +574,7 @@ body {
   color: var(--item-bg-color);
   background: var(--footer-bg-color);
 }
-.input__footer::-moz-placeholder {
+.footer__input::-moz-placeholder {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -585,7 +585,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.input__footer:-ms-input-placeholder {
+.footer__input:-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -596,7 +596,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.input__footer::placeholder {
+.footer__input::placeholder {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -608,7 +608,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.input__footer-btn {
+.footer__input-btn {
   outline: none;
   display: block;
   width: 200px;
@@ -632,10 +632,10 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.input__footer-btn:focus {
+.footer__input-btn:focus {
   background-color: var(--focus-color);
 }
-.input__footer-btn:hover {
+.footer__input-btn:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -729,7 +729,7 @@ body {
   color: var(--item-bg-color);
 }
 
-.input__footer {
+.footer__input {
   padding: 15px 0px 15px 16px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -739,7 +739,7 @@ body {
   color: var(--item-bg-color);
   background: var(--footer-bg-color);
 }
-.input__footer::-moz-placeholder {
+.footer__input::-moz-placeholder {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -750,7 +750,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.input__footer:-ms-input-placeholder {
+.footer__input:-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -761,7 +761,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.input__footer::placeholder {
+.footer__input::placeholder {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -773,7 +773,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.input__footer-btn {
+.footer__input-btn {
   outline: none;
   display: block;
   width: 200px;
@@ -797,10 +797,10 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.input__footer-btn:focus {
+.footer__input-btn:focus {
   background-color: var(--focus-color);
 }
-.input__footer-btn:hover {
+.footer__input-btn:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -825,7 +825,7 @@ body {
   padding: 94px 0px 94px 0;
 }
 
-.ico__nav {
+.nav__ico {
   margin-right: 10px;
   fill: currentColor;
   width: 10px;
@@ -841,7 +841,7 @@ body {
   vertical-align: middle;
 }
 
-.poz {
+.footer {
   position: relative;
   margin-left: auto;
 }
