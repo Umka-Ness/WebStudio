@@ -852,7 +852,7 @@ body {
   gap: 10px;
 }
 
-.team__item {
+.team-item-footer-bg__item {
   display: flex;
   width: 44px;
   height: 44px;
@@ -861,10 +861,10 @@ body {
   justify-content: center;
   transition: var(--transform-hover);
 }
-.team__item:hover, .team__item:focus {
+.team-item-footer-bg__item:hover, .team-item-footer-bg__item:focus {
   background-color: var(--focus-color);
 }
-.team__item:hover > .soc-item, .team__item:focus > .soc-item {
+.team-item-footer-bg__item:hover > .soc-item, .team-item-footer-bg__item:focus > .soc-item {
   fill: var(--item-bg-color);
 }
 
