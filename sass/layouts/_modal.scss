@@ -80,7 +80,7 @@
     padding: 40px;
 }
 
-.input__label {
+.input-label {
     position: relative;
     font-family: var(--main-font);
     font-style: normal;
@@ -118,7 +118,7 @@
     transition: var(--transform-hover-shadov);
 }
 
-.input-br {
+.input {
     margin-bottom: 4px;
 }
 
@@ -157,12 +157,12 @@
     background-color: var(--alert-text);
 }
 
-.chec:checked+.policy__text span {
+.chec:checked+.policy-flax__text span {
     background-color: var(--focus-color);
     border: none;
 }
 
-.chec:checked+.policy__text span {
+.chec:checked+.policy-flax__text span {
     border-color: var(--color-all-text);
 }
 
@@ -180,7 +180,7 @@
     transition: var(--transform-hover);  
 }
 
-.policy__text {
+.policy-flax__text {
     display: flex;
     font-family: var(--main-font);
     font-style: normal;

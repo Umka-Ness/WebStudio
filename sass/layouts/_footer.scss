@@ -183,22 +183,6 @@
         }
 }
 
-.mail-address {
-    font-family: var(--main-font);
-    font-weight: 400;
-    font-size: 14px;
-    font-style: normal;
-    line-height: calc(24 / 14);
-
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    transition: var(--transform-hover);
-    &:hover,
-    &:focus {
-            color: var(--focus-color);
-        }
-}
-
 .footer-ul-margin {
     margin: 9px 0px 9px 0px;
 }
@@ -336,7 +320,34 @@
     padding: 94px 0px 94px 0;
 }
 
-.nav__ico {
+.mail__studio {
+    display: inline-block;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    padding: 32px 0px;
+    display: block;
+    transition: var(--transform-hover);
+    
+    &:hover,
+    &:focus {
+        color: var(--focus-color);
+    
+    }
+}
+
+.team-name {
+
+}
+
+.cont-color {
+    color: var(--alert-text);
+}
+
+.mail__ico {
     margin-right: 10px;
     fill: currentColor;
     width: 10px;
@@ -359,10 +370,14 @@
     margin-left: auto;
 }
 
-.team-wrap {
+.team {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.logo {
+
 }
 
 .team-item-footer-bg__item {
@@ -381,6 +396,42 @@
     &:focus>.soc-item {
                     fill: var(--item-bg-color);
                 }
+}
+
+.team__item {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transform-hover);
+        &:hover,
+        &:focus {
+            background-color: var(--focus-color);
+        }
+        
+         &:hover>.soc-item,
+        &:focus>.soc-item {
+            fill: var(--item-bg-color);
+        }
+}
+.team-item-footer-bg-new {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transform-hover);
+     &:hover,
+    &:focus {
+        background-color: var(--focus-color);
+    }
+    &:hover>.soc-item,
+    &:focus>.soc-item {
+        fill: var(--item-bg-color);
+            }
 }
 
 .soc-item {

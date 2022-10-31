@@ -24,7 +24,7 @@
 
 }
 
-.alert__text {
+.figure-interval__text {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: var(--alert-font-size-text);
@@ -190,7 +190,7 @@
     &:focus {
             box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
         }
-    &:hover .photo__text {
+    &:hover .portfolio-wrap__text {
             transform: translateY(0);
         }
 }
@@ -200,7 +200,7 @@
     overflow: hidden;
 }
 
-.photo__text {
+.portfolio-wrap__text {
     position: absolute;
     top: 0;
     left: 0;
