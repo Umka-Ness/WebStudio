@@ -39,6 +39,9 @@
     letter-spacing: 0.03em;
 
     color: var(--color-text);
+    @media screen and (max-width:480px) {
+        width: 100%;
+    }
 }
 
 

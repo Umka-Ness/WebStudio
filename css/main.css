@@ -393,6 +393,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
+@media screen and (max-width: 480px) {
+  .figure-interval__text {
+    width: 100%;
+  }
+}
 
 .about {
   font-family: var(--main-font);
