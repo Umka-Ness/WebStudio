@@ -21,6 +21,12 @@
 
 
     color: var(--alert-text);
+    @media screen and (max-width: 480px) {
+        width: 270px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
 
 }
 
@@ -48,24 +54,71 @@
     text-align: center;
 
     color: var(--alert-text);
+    @media screen and (max-width: 480px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+    }
 }
 
 
 .section-team {
     padding: 94px 94px;
     background-color: #F5F4FA;
+    @media screen and (max-width:480px) {
+        width: 480px;
+    }
+    
+}
+
+.section-team:first-child {
+    @media screen and (max-width: 480px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+    }
 }
 
 .section-team-padding {
     padding-bottom: 94px;
+    @media screen and (max-width: 480px) {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            width: 1px;
+            position: absolute;
+        }
 }
 
 .team {
-
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
+}
+
+
+
+.team:first-child {
+    @media screen and (max-width: 480px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+    }
+}
+
+.team:last-child {
+    @media screen and (max-width: 480px) {
+        max-width: 480px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }
 
 .team-hover {

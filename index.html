@@ -28,7 +28,7 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="cont-disp">
+      <!-- <div class="cont-disp">
         <nav class="nav">
           <a href="index.html" class="nav__logo"><span>Web</span>Studio</a>
           <ul class="list nav ">
@@ -49,7 +49,7 @@
               </svg>+38 096 111 11 11</a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </header>
   <main>
@@ -151,7 +151,7 @@
       <div class="container">
         <h2 class="about">Наша команда</h2>
 
-        <ul class="team">
+        <ul class="team team-one">
           <li class="team-hover">
             <img src="./images/img(3).jpg" alt="Фото мужчины, около 25 лет в рубашке и очках с широкой улыбкой"
               width="270" height="260" />
@@ -377,16 +377,18 @@
       <section class="logo">
         <a href="index.html" class="logo__footer"><span>Web</span>Studio</a>
         <address>
-          <ul>
-            <li><a href="https://goo.gl/maps/Gb729abm9Eymb1sx5" target="_blank" rel="noopener noreferrer nofollow"
-                class="nav-address">м. Київ, пр-т Лесі Українки,
+          <ul class="address-wrap">
+            <li class="address-center"><a href="https://goo.gl/maps/Gb729abm9Eymb1sx5" target="_blank"
+                rel="noopener noreferrer nofollow" class="nav-address">м. Київ, пр-т Лесі Українки,
                 26</a>
             </li>
 
-            <li class="footer-ul-margin"><a href="mailto:info@devstudio.com" class="mail-address">info@devstudio.com</a>
+            <li class="footer-ul-margin address-center"><a href="mailto:info@devstudio.com"
+                class="mail-address">info@devstudio.com</a>
             </li>
 
-            <li><a href="tel:+38-096-111-11-11" class="address-contacts">+38 096 111 11 11</a></li>
+            <li class="address-center"><a href="tel:+38-096-111-11-11" class="address-contacts">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </section>
@@ -525,6 +527,14 @@
   </script>
 
   <script src="./Js/modal.js"></script>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+
+
+  <script src="./Js/mobile-menu.js"></script>
+
 </body>
 
 </html>

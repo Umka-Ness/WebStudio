@@ -23,7 +23,6 @@
     font-size: 26px;
     line-height: 30.52px;
     color: var(--item-bg-color);
-    /* identical to box height */
 
     letter-spacing: 0.03em;
 
@@ -33,7 +32,19 @@
             color: var(--focus-color);
     
         }
+    @media screen and (max-width:480px) {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
 
+}
+
+.address-wrap {
+    @media screen and (max-width:480px) {
+        width: 100%;
+        justify-content: center;
+    }
 }
 
 .logo__footer span {
@@ -111,17 +122,31 @@
     justify-content: center;
     margin-bottom: 30px;
     border-radius: 4px;
+    max-width: 270px;
 
     background-color: #F5F4FA;
     transition: var(--transform-hover-shadov);
     &:hover {
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
+    @media screen and (max-width: 480px) {
+        min-width: 450px;
+        display: flex;
+    
+    }
+    @media screen and (min-width:481) and (max-width: 768px) {
+        min-width: 354px;
+        
+    }
+    @media screen and (min-width:769px) and (max-width: 1200px) {
+        width: 1200px;
+    }
         
 }
 
 .figure-interval {
     margin-right: 30px;
+    
 }
 
 .figure-bg:last-child {
@@ -130,4 +155,16 @@
 
 .figure-list {
     display: flex;
+    @media screen and (max-width: 480px) {
+        min-width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    @media screen and (max-width: 768px) {
+        max-width: 768px;
+    }
+    @media screen and (min-width:769px) and (max-width: 1200px) {
+        width: 1200px;
+    }
 }
