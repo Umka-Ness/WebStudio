@@ -68,7 +68,7 @@
     padding: 94px 94px;
     background-color: #F5F4FA;
     @media screen and (max-width:480px) {
-        width: 480px;
+        width: 100%;
     }
     
 }
@@ -115,9 +115,9 @@
 
 .team:last-child {
     @media screen and (max-width: 480px) {
-        max-width: 480px;
+        max-width: 100%;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
     }
 }
 
