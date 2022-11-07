@@ -85,6 +85,11 @@
     margin-bottom: 20px;
 
     color: var(--item-bg-color);
+    @media screen and (max-width:480px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .footer__input {
@@ -156,6 +161,11 @@
 
     top: 50px;
     left: 545px;
+    @media screen and (max-width:480px) {
+        position: absolute;
+        top: 128px;
+        left: 300px;
+    }
 }
 
 .footer-bg {
@@ -294,15 +304,9 @@
             background-color: #188ce8;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         }
-}
-
-.footer-input-icon {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-
-    top: 50px;
-    left: 545px;
+    @media screen and (max-width:480px) {
+        position: relative;
+    }
 }
 
 .section-btn {
@@ -372,6 +376,9 @@
 .footer {
     position: relative;
     margin-left: auto;
+    @media screen and (max-width:480px) {
+        width: 100%;
+    }
 }
 
 .team {
@@ -458,12 +465,19 @@
     display: flex;
     margin-top: 20px;
     gap: 10px;
+    @media screen and (max-width:480px) {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
 }
 
 .footer-icon {
     margin-left: 70px;
     @media screen and (max-width:480px) {
-        max-width: 480px;
+        width: 100%;
+        margin: 0;
     }
 }
 

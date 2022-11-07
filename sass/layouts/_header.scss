@@ -168,3 +168,11 @@
         width: 1200px;
     }
 }
+
+.figure-justify {
+    @media screen and (max-width:480px) {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+}

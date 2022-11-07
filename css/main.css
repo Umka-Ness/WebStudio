@@ -265,6 +265,14 @@ address {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .figure-justify {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 body {
   font-family: var(--main-font);
   font-size: var(--alert-font-size-text);
@@ -715,6 +723,13 @@ body {
   margin-bottom: 20px;
   color: var(--item-bg-color);
 }
+@media screen and (max-width: 480px) {
+  .footer__h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .footer__input {
   padding: 15px 0px 15px 16px;
@@ -798,6 +813,13 @@ body {
   height: 24px;
   top: 50px;
   left: 545px;
+}
+@media screen and (max-width: 480px) {
+  .footer-input-icon {
+    position: absolute;
+    top: 128px;
+    left: 300px;
+  }
 }
 
 .footer-bg {
@@ -944,13 +966,10 @@ body {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-.footer-input-icon {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 50px;
-  left: 545px;
+@media screen and (max-width: 480px) {
+  .footer__input-btn {
+    position: relative;
+  }
 }
 
 .section-btn {
@@ -1015,6 +1034,11 @@ body {
 .footer {
   position: relative;
   margin-left: auto;
+}
+@media screen and (max-width: 480px) {
+  .footer {
+    width: 100%;
+  }
 }
 
 .team {
@@ -1095,13 +1119,22 @@ body {
   margin-top: 20px;
   gap: 10px;
 }
+@media screen and (max-width: 480px) {
+  .team-item-footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+}
 
 .footer-icon {
   margin-left: 70px;
 }
 @media screen and (max-width: 480px) {
   .footer-icon {
-    max-width: 480px;
+    width: 100%;
+    margin: 0;
   }
 }
 
