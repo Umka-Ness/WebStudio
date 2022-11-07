@@ -125,7 +125,7 @@ address {
 .logo__footer:focus {
   color: var(--focus-color);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .logo__footer {
     display: flex;
     width: 100%;
@@ -133,7 +133,7 @@ address {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .address-wrap {
     width: 100%;
     justify-content: center;
@@ -218,7 +218,7 @@ address {
 .figure-bg:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .figure-bg {
     min-width: 100%;
     display: flex;
@@ -239,7 +239,7 @@ address {
 .figure-interval {
   margin-right: 30px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .figure-interval {
     margin: 0;
   }
@@ -252,14 +252,14 @@ address {
 .figure-list {
   display: flex;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .figure-list {
     flex-wrap: wrap;
     gap: 30px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .figure-justify {
     display: flex;
     justify-content: center;
@@ -286,7 +286,7 @@ body {
   background-position: center;
   width: 100%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .hero {
     width: 100%;
   }
@@ -315,7 +315,7 @@ body {
   margin-bottom: 30px;
   color: var(--item-bg-color);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .hero__title {
     width: 480px;
     width: 360px;
@@ -376,7 +376,7 @@ body {
   margin-bottom: 10px;
   color: var(--alert-text);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .alert {
     width: 270px;
     display: flex;
@@ -393,7 +393,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .figure-interval__text {
     width: 100%;
   }
@@ -409,7 +409,7 @@ body {
   text-align: center;
   color: var(--alert-text);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .about {
     opacity: 0;
     visibility: hidden;
@@ -423,13 +423,13 @@ body {
   padding: 94px 94px;
   background-color: #F5F4FA;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .section-team {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .section-team:first-child {
     opacity: 0;
     visibility: hidden;
@@ -442,7 +442,7 @@ body {
 .section-team-padding {
   padding-bottom: 94px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .section-team-padding {
     opacity: 0;
     visibility: hidden;
@@ -459,7 +459,7 @@ body {
   justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .team:first-child {
     opacity: 0;
     visibility: hidden;
@@ -469,7 +469,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .team:last-child {
     max-width: 100%;
     flex-wrap: wrap;
@@ -692,7 +692,7 @@ body {
   color: var(--focus-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .address-center {
     display: flex;
     width: 100%;
@@ -704,7 +704,7 @@ body {
   display: flex;
   align-items: baseline;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .contant-wrap {
     flex-wrap: wrap;
   }
@@ -721,7 +721,7 @@ body {
   margin-bottom: 20px;
   color: var(--item-bg-color);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .footer__h3 {
     width: 100%;
     display: flex;
@@ -737,7 +737,7 @@ body {
   background-color: var(--footer-bg-color);
   padding: 60px 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .footer-bg {
     width: 100%;
   }
@@ -787,7 +787,7 @@ body {
   font-size: var(--alert-font-size-text);
   color: var(--item-bg-color);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .footer-title {
     display: flex;
     margin-top: 60px;
@@ -850,7 +850,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .footer__input {
     display: flex;
     justify-content: center;
@@ -891,7 +891,7 @@ body {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .footer__input-btn {
     position: relative;
     display: flex;
@@ -907,7 +907,7 @@ body {
 .section {
   padding: 94px 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .section {
     width: 100%;
     padding: 60px 0;
@@ -963,7 +963,7 @@ body {
   position: relative;
   margin-left: auto;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .footer {
     width: 100%;
   }
@@ -975,7 +975,7 @@ body {
   gap: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .team-one {
     gap: 30px;
     max-width: 100%;
@@ -1047,7 +1047,7 @@ body {
   margin-top: 20px;
   gap: 10px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .team-item-footer {
     display: flex;
     width: 100%;
@@ -1059,7 +1059,7 @@ body {
 .footer-icon {
   margin-left: 70px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .footer-icon {
     width: 100%;
     margin: 0;
@@ -1106,7 +1106,7 @@ body {
   justify-content: center;
   gap: 30px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479.98px) {
   .pre-ul {
     display: flex;
     flex-wrap: wrap;
@@ -1162,7 +1162,6 @@ body {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 300ms linear;
 }
-
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
