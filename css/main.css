@@ -860,6 +860,7 @@ body {
 }
 
 .footer__input-btn {
+  position: relative;
   outline: none;
   display: block;
   width: 200px;
@@ -892,6 +893,7 @@ body {
 }
 @media screen and (max-width: 480px) {
   .footer__input-btn {
+    position: relative;
     display: flex;
     position: relative;
     justify-content: center;
