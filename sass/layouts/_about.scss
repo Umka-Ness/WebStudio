@@ -128,7 +128,10 @@
         }
 }
 
-
+.calc-team {
+    width: 100%;
+    width: calc((100% - 60px)/2);
+}
 
 .team__name {
     font-family: var(--main-font);

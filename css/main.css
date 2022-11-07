@@ -479,6 +479,11 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.calc-team {
+  width: 100%;
+  width: calc((100% - 60px) / 2);
+}
+
 .team__name {
   font-family: var(--main-font);
   font-weight: 500;
@@ -1110,13 +1115,13 @@ body {
   .pre-ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    gap: 30px;
+    margin-right: -30px;
   }
 }
 
 .list-one {
   display: flex;
-  width: 170px;
   height: 92px;
   vertical-align: middle;
   align-items: center;
@@ -1136,7 +1141,6 @@ body {
   fill: var(--focus-color);
   border-color: var(--focus-color);
 }
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
