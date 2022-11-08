@@ -204,7 +204,7 @@ address {
 }
 
 .figure-bg__ico {
-  width: 70px;
+  max-width: 70px;
   height: 70px;
   fill: currentColor;
 }
@@ -216,7 +216,7 @@ address {
   justify-content: center;
   margin-bottom: 30px;
   border-radius: 4px;
-  max-width: 270px;
+  width: 100%;
   background-color: #F5F4FA;
   transition: var(--transform-hover-shadov);
 }
@@ -235,11 +235,6 @@ address {
     min-width: 354px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-  .figure-bg {
-    width: 1200px;
-  }
-}
 
 .figure-interval {
   margin-right: 30px;
@@ -252,8 +247,7 @@ address {
 @media screen and (min-width: 481px) {
   .figure-interval {
     margin: 0;
-    margin-right: 1px;
-    max-width: 50%;
+    max-width: calc((100% - 30px) / 2);
   }
 }
 
@@ -273,6 +267,7 @@ address {
 @media screen and (min-width: 481px) {
   .figure-list {
     display: flex;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -313,11 +308,6 @@ body {
 @media screen and (min-width: 481px) and (min-width: 481px) {
   .hero {
     width: 100%;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-  .hero {
-    width: 1200px;
   }
 }
 

@@ -110,7 +110,7 @@
 }
 
 .figure-bg__ico {
-    width: 70px;
+    max-width: 70px;
     height: 70px;
     fill: currentColor;
 }
@@ -122,7 +122,7 @@
     justify-content: center;
     margin-bottom: 30px;
     border-radius: 4px;
-    max-width: 270px;
+    width: 100%;
 
     background-color: #F5F4FA;
     transition: var(--transform-hover-shadov);
@@ -139,9 +139,7 @@
         min-width: 354px;
         
     }
-    @media screen and (min-width:769px) and (max-width: 1200px) {
-        width: 1200px;
-    }
+
         
 }
 
@@ -152,8 +150,7 @@
     }
     @media screen and (min-width:481px) {
         margin: 0;
-                margin-right: 1px;
-        max-width: calc((100%) / 2);
+        max-width: calc((100% - 30px) / 2);
     }
 }
 
@@ -170,6 +167,7 @@
     }
     @media screen and (min-width: 481px) {
         display: flex;
+        gap: 30px;
         flex-wrap: wrap;
         justify-content: center;
     }
