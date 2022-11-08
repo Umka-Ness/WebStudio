@@ -26,8 +26,14 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 300ms linear;
-    @media screen and (max-width:479.98px) {
-        
+    @media screen and (max-width:480px) {
+        width: calc(100% - 40px);
+    }
+    @media screen and (min-width:481px) {
+        width: calc(100% - 40px);
+    }
+    @media screen and (max-width:1200px) {
+        width: calc(100% - 40px);
     }
 }
 

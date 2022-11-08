@@ -9,11 +9,11 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    @media screen and (max-width: 479.98px) {
+    @media screen and (max-width: 480px) {
             width: 100%;
         }
-    @media screen and (min-width:481px) and (max-width: 768px) {
-        width: 768px;
+    @media screen and (min-width:481px) and (min-width: 481px) {
+        width: 100%;
     }
     @media screen and (min-width:769px) and (max-width: 1200px) {
             width: 1200px;
@@ -34,13 +34,12 @@
     margin-bottom: 30px;
 
     color: var(--item-bg-color);
-    @media screen and (max-width: 479.98px) {
-        width: 480px;
-        width: 360px;
+    @media screen and (max-width: 480px) {
+        max-width: 360px;
         font-size: 26px;
         line-height: calc(42 / 26);
     }
-    @media screen and (min-width:481px) and (max-width: 768px) {
+    @media screen and (min-width:481px) and (min-width: 481px) {
             width: 360px;
             font-size: 26px;
             line-height: calc(42 / 26);
