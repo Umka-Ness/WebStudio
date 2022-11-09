@@ -54,6 +54,11 @@ address {
     width: 100%;
   }
 }
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
 
 .prof {
   max-width: 100%;
@@ -271,6 +276,12 @@ address {
     gap: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .figure-list {
+    flex-wrap: nowrap;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .figure-justify {
     display: flex;
@@ -438,12 +449,45 @@ body {
     text-align: center;
   }
 }
-.vis-about {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  width: 1px;
-  position: absolute;
+@media screen and (min-width: 1200px) {
+  .about {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: var(--font-size-h);
+    line-height: 1.1666666667;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--alert-text);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .vis-about {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 481px) {
+  .vis-about {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .vis-about {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: inherit;
+    width: 100%;
+    position: relative;
+  }
 }
 
 .section-team {
@@ -494,6 +538,16 @@ body {
     position: absolute;
   }
 }
+@media screen and (min-width: 1200px) {
+  .section-team-padding {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: inherit;
+    width: 100%;
+    position: inherit;
+  }
+}
+
 .team {
   display: flex;
   gap: 30px;
@@ -519,6 +573,16 @@ body {
     position: absolute;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team:first-child {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+    width: 100%;
+    position: inherit;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .team:last-child {
     max-width: 100%;
@@ -1018,6 +1082,12 @@ body {
     max-width: 100%;
   }
 }
+@media screen and (min-width: 1200px) {
+  .section {
+    width: 100%;
+  }
+}
+
 .section-icon {
   padding: 94px 0px 94px 0;
 }
@@ -1095,6 +1165,12 @@ body {
     justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team-one {
+    flex-wrap: nowrap;
+  }
+}
+
 .logo {
   width: 100%;
 }
@@ -1241,6 +1317,12 @@ body {
     justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .pre-ul {
+    flex-wrap: nowrap;
+  }
+}
+
 .list-one {
   display: flex;
   height: 92px;

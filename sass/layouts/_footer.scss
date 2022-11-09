@@ -299,6 +299,7 @@
         max-width: 100%;
     }
     @media screen and (min-width:1200px) {
+        width: 100%;
     }
 }
 
@@ -385,6 +386,7 @@
         justify-content: center;
     }
     @media screen and (min-width:1200px) {
+        flex-wrap: nowrap;
     }
 }
 
@@ -535,6 +537,7 @@
         justify-content: center;
     }
     @media screen and (min-width:1200px) {
+        flex-wrap: nowrap;
     }
 }
 
