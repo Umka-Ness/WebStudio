@@ -75,7 +75,7 @@
         margin-bottom: 50px;
         text-align: center;
     }
-    @media screen and (max-width:1200px) {
+    @media screen and (min-width:1200px) {
     }
 }
 .vis-about {
@@ -92,6 +92,7 @@
     background-color: #F5F4FA;
     @media screen and (max-width:480px) {
         width: 100%;
+        padding: 0;
     }
     @media screen and (min-width:481px) {
         width: 100%;
@@ -126,7 +127,7 @@
             width: 1px;
             position: absolute;
     }
-    @media screen and (max-width:1200px) {
+    @media screen and (min-width:1200px) {
     }
 }
 
@@ -154,7 +155,7 @@
         width: 1px;
         position: absolute;
     }
-    @media screen and (max-width:1200px) {
+    @media screen and (min-width:1200px) {
     }
 }
 
@@ -168,7 +169,7 @@
         max-width: 100%;
         justify-content: center;
     }
-    @media screen and (max-width:1200px) {
+    @media screen and (min-width:1200px) {
     }
 }
 
@@ -181,7 +182,7 @@
         width: calc((100% - 30px) / 2);
         gap: 30px;
     }
-    @media screen and (max-width:1200px) {
+    @media screen and (min-width:1200px) {
     }
     
 }
@@ -192,7 +193,7 @@
     @media screen and (min-width:481px) {
         width: calc((100% - 30px) / 4);
     }
-    @media screen and (max-width:1200px) {
+    @media screen and (min-width:1200px) {
     }
 }
 
