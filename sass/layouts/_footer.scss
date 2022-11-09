@@ -68,6 +68,10 @@
     @media screen and (max-width:480px) {
         flex-wrap: wrap;
     }
+    @media screen and (min-width:481px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .footer__h3 {
@@ -86,6 +90,10 @@
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+    @media screen and (min-width:481px) {
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
@@ -161,6 +169,11 @@
         margin-top: 60px ;
         justify-content: center;
     }
+    @media screen and (min-width:481px) {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 
 .footer__h3 {
@@ -206,6 +219,9 @@
         justify-content: center;
         width: 100%;
     }
+    @media screen and (min-width:481px) {
+        width: 450px;
+    }
 }
 .footer__input-btn {
     position: relative;
@@ -248,6 +264,10 @@
         display: flex;
         position: relative;
         justify-content: center;
+    }
+    @media screen and (min-width:481px) {
+        margin: 0 auto;
+        top: 20px;
     }
 }
 
@@ -321,6 +341,11 @@
     @media screen and (max-width:480px) {
         width: 100%;
     }
+    @media screen and (min-width:481px) {
+        display: inline-block;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 
 .team {
@@ -344,7 +369,9 @@
 
 .logo {
     width: 100%;
-
+    @media screen and (min-width:481px) {
+        width: calc((100% - 30px)/2);
+    }
 }
 
 .team-item-footer-bg__item {
@@ -385,7 +412,7 @@
 }
 .team-item-footer-bg-new {
     display: flex;
-    width: 44px;
+    max-width: 44px;
     height: 44px;
     border-radius: 50%;
     align-items: center;
@@ -426,6 +453,10 @@
     @media screen and (max-width:480px) {
         width: 100%;
         margin: 0;
+    }
+    @media screen and (min-width:481px) {
+        margin-left: 165px;
+        
     }
 }
 

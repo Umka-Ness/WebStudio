@@ -261,10 +261,7 @@ address {
 }
 @media screen and (min-width: 481px) {
   .figure-list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: block;
   }
 }
 
@@ -274,7 +271,6 @@ address {
     justify-content: center;
   }
 }
-
 body {
   font-family: var(--main-font);
   font-size: var(--alert-font-size-text);
@@ -760,6 +756,12 @@ body {
     flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 481px) {
+  .contant-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 .footer__h3 {
   font-family: var(--main-font);
@@ -777,6 +779,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 481px) {
+  .footer__h3 {
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
@@ -845,6 +853,13 @@ body {
     justify-content: center;
   }
 }
+@media screen and (min-width: 481px) {
+  .footer-title {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
 
 .footer__h3 {
   font-family: var(--main-font);
@@ -908,6 +923,11 @@ body {
     width: 100%;
   }
 }
+@media screen and (min-width: 481px) {
+  .footer__input {
+    width: 450px;
+  }
+}
 
 .footer__input-btn {
   position: relative;
@@ -948,6 +968,12 @@ body {
     display: flex;
     position: relative;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 481px) {
+  .footer__input-btn {
+    margin: 0 auto;
+    top: 20px;
   }
 }
 
@@ -1019,6 +1045,13 @@ body {
     width: 100%;
   }
 }
+@media screen and (min-width: 481px) {
+  .footer {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
 
 .team {
   display: flex;
@@ -1043,6 +1076,11 @@ body {
 
 .logo {
   width: 100%;
+}
+@media screen and (min-width: 481px) {
+  .logo {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 .team-item-footer-bg__item {
@@ -1079,7 +1117,7 @@ body {
 
 .team-item-footer-bg-new {
   display: flex;
-  width: 44px;
+  max-width: 44px;
   height: 44px;
   border-radius: 50%;
   align-items: center;
@@ -1122,6 +1160,11 @@ body {
   .footer-icon {
     width: 100%;
     margin: 0;
+  }
+}
+@media screen and (min-width: 481px) {
+  .footer-icon {
+    margin-left: 165px;
   }
 }
 
