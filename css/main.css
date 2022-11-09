@@ -56,7 +56,7 @@ address {
 }
 
 .prof {
-  max-width: 270px;
+  max-width: 100%;
   padding-top: 30px;
   background-color: var(--item-bg-color);
   padding: 30px 30px;
@@ -244,6 +244,12 @@ address {
     max-width: calc((100% - 30px) / 2);
   }
 }
+@media screen and (max-width: 1200px) {
+  .figure-interval {
+    width: 100%;
+  }
+}
+
 .figure-bg:last-child {
   margin-right: 0;
 }
@@ -260,14 +266,29 @@ address {
 @media screen and (min-width: 481px) {
   .figure-list {
     display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .figure-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .figure-justify {
     display: flex;
     justify-content: center;
   }
 }
+.pic {
+  width: 100%;
+}
+
 body {
   font-family: var(--main-font);
   font-size: var(--alert-font-size-text);
@@ -425,6 +446,14 @@ body {
     text-align: center;
   }
 }
+.vis-about {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  width: 1px;
+  position: absolute;
+}
+
 .section-team {
   padding: 94px 94px;
   background-color: #F5F4FA;
@@ -432,6 +461,12 @@ body {
 @media screen and (max-width: 480px) {
   .section-team {
     width: 100%;
+  }
+}
+@media screen and (min-width: 481px) {
+  .section-team {
+    width: 100%;
+    padding: 0;
   }
 }
 
@@ -512,7 +547,7 @@ body {
 }
 @media screen and (min-width: 481px) {
   .team-hover {
-    width: calc((100% - 30px) / 3);
+    width: calc((100% - 30px) / 2);
     gap: 30px;
   }
 }

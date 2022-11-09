@@ -156,6 +156,7 @@
         max-width: calc((100% - 30px) / 2);
     }
     @media screen and (max-width:1200px) {
+        width: 100%;
     }
 }
 
@@ -172,8 +173,14 @@
     }
     @media screen and (min-width: 481px) {
         display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
     }
-    @media screen and (max-width:1200px) {
+    @media screen and (min-width:1200px) {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
     }
 }
 
@@ -186,4 +193,7 @@
     }
     @media screen and (max-width:1200px) {
     }
+}
+.pic{
+    width: 100%;
 }
