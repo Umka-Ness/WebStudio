@@ -789,9 +789,20 @@ body {
 }
 
 .footer-input-icon {
-  width: 24px;
+  max-width: 24px;
   height: 24px;
 }
+@media screen and (max-width: 480px) {
+  .footer-input-icon {
+    margin-left: 12px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .footer-input-icon {
+    margin-left: 12px;
+  }
+}
+
 .footer-bg {
   background-color: var(--footer-bg-color);
   padding: 60px 0;
@@ -972,6 +983,7 @@ body {
 }
 @media screen and (min-width: 481px) {
   .footer__input-btn {
+    display: flex;
     margin: 0 auto;
     top: 20px;
   }
@@ -1050,6 +1062,7 @@ body {
     display: inline-block;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 60px;
   }
 }
 
@@ -1164,7 +1177,7 @@ body {
 }
 @media screen and (min-width: 481px) {
   .footer-icon {
-    margin-left: 165px;
+    margin: 0;
   }
 }
 

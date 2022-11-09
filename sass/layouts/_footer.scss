@@ -98,10 +98,13 @@
 }
 
 .footer-input-icon {
-    width: 24px;
+    max-width: 24px;
     height: 24px;
     @media screen and (max-width:480px) {
-        
+        margin-left: 12px;
+    }
+    @media screen and (min-width:481px) {
+        margin-left: 12px;
     }
 }
 
@@ -266,6 +269,7 @@
         justify-content: center;
     }
     @media screen and (min-width:481px) {
+        display: flex;
         margin: 0 auto;
         top: 20px;
     }
@@ -345,6 +349,7 @@
         display: inline-block;
         justify-content: center;
         margin: 0 auto;
+        margin-top: 60px;
     }
 }
 
@@ -455,7 +460,8 @@
         margin: 0;
     }
     @media screen and (min-width:481px) {
-        margin-left: 165px;
+        margin: 0;
+        
         
     }
 }
