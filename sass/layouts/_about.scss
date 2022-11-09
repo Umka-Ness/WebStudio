@@ -75,6 +75,8 @@
         margin-bottom: 50px;
         text-align: center;
     }
+    @media screen and (max-width:1200px) {
+    }
 }
 
 
@@ -113,6 +115,8 @@
             width: 1px;
             position: absolute;
     }
+    @media screen and (max-width:1200px) {
+    }
 }
 
 .team {
@@ -139,6 +143,8 @@
         width: 1px;
         position: absolute;
     }
+    @media screen and (max-width:1200px) {
+    }
 }
 
 .team:last-child {
@@ -151,6 +157,8 @@
         max-width: 100%;
         justify-content: center;
     }
+    @media screen and (max-width:1200px) {
+    }
 }
 
 .team-hover {
@@ -162,6 +170,8 @@
         width: calc((100% - 30px) / 3);
         gap: 30px;
     }
+    @media screen and (max-width:1200px) {
+    }
     
 }
 
@@ -170,6 +180,8 @@
     width: calc((100% - 60px)/2);
     @media screen and (min-width:481px) {
         width: calc((100% - 30px) / 4);
+    }
+    @media screen and (max-width:1200px) {
     }
 }
 

@@ -37,6 +37,7 @@
         width: 100%;
         justify-content: center;
     }
+    
 
 }
 
@@ -139,6 +140,8 @@
         min-width: 354px;
         
     }
+    @media screen and (max-width:1200px) {
+    }
 
         
 }
@@ -151,6 +154,8 @@
     @media screen and (min-width:481px) {
         margin: 0;
         max-width: calc((100% - 30px) / 2);
+    }
+    @media screen and (max-width:1200px) {
     }
 }
 
@@ -168,6 +173,8 @@
     @media screen and (min-width: 481px) {
         display: block;
     }
+    @media screen and (max-width:1200px) {
+    }
 }
 
 .figure-justify {
@@ -176,5 +183,7 @@
         justify-content: center;
     }
     @media screen and (min-width:481px) {
+    }
+    @media screen and (max-width:1200px) {
     }
 }
