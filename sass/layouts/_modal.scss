@@ -30,7 +30,7 @@
         width: calc(100% - 15px);
     }
     @media screen and (min-width:481px) {
-        width: calc(100% - 15px);
+        width: 450px;
     }
     @media screen and (min-width:1200px) {
         width: 528px;
@@ -201,7 +201,18 @@
 
 
     color: var(--color-text);
-    
+    @media screen and (max-width:480px) {
+        font-size: 12px;
+        line-height: calc(14 / 12);
+    }
+    @media screen and (min-width:481px) {
+        font-size: 12px;
+        line-height: calc(14 / 12);
+    }
+    @media screen and (min-width:1200px) {
+        font-size: var(--alert-font-size-text);
+        line-height: calc(24 / 14);
+    }
 }
 
 

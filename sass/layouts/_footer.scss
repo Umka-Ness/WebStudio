@@ -359,10 +359,11 @@
         width: 100%;
     }
     @media screen and (min-width:481px) {
-        display: inline-block;
-        justify-content: center;
-        margin: 0 auto;
-        margin-top: 60px;
+        position: relative;
+        margin-left: auto;
+        margin-top: 0;
+        justify-content: baseline;
+        display: block;
     }
     @media screen and (min-width:1200px) {
         position: relative;
