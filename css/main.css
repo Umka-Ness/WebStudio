@@ -497,13 +497,11 @@ body {
 @media screen and (max-width: 480px) {
   .section-team {
     width: 100%;
-    padding: 94px 94px;
   }
 }
 @media screen and (min-width: 481px) {
   .section-team {
     width: 100%;
-    padding: 94px 94px;
   }
 }
 @media screen and (min-width: 1200px) {
