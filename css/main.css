@@ -513,6 +513,18 @@ body {
   }
 }
 
+.section-team-top {
+  padding-top: 94px;
+}
+
+.section-team-botom {
+  padding-bottom: 94px;
+}
+
+.section-color {
+  background-color: #F5F4FA;
+}
+
 @media screen and (max-width: 480px) {
   .section-team:first-child {
     opacity: 0;
@@ -624,6 +636,12 @@ body {
     width: calc((100% - 30px) / 4);
   }
 }
+@media screen and (min-width: 1200px) {
+  .calc-team {
+    width: 100%;
+  }
+}
+
 .team__name {
   font-family: var(--main-font);
   font-weight: 500;
@@ -1327,7 +1345,6 @@ body {
 @media screen and (min-width: 1200px) {
   .pre-ul {
     flex-wrap: nowrap;
-    margin: 0px 215px;
   }
 }
 

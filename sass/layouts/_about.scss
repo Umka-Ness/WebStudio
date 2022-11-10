@@ -127,7 +127,18 @@
         width: 100%;
         padding: 94px 94px;
     }
-    
+}
+
+.section-team-top {
+    padding-top: 94px;
+}
+
+.section-team-botom {
+    padding-bottom: 94px;
+}
+
+.section-color {
+    background-color: #F5F4FA;
 }
 
 .section-team:first-child {
@@ -236,6 +247,7 @@
         width: calc((100% - 30px) / 4);
     }
     @media screen and (min-width:1200px) {
+        width: 100%;
     }
 }
 
