@@ -365,6 +365,11 @@
         margin-top: 60px;
     }
     @media screen and (min-width:1200px) {
+        position: relative;
+        margin-left: auto;
+        margin-top: 0;
+        justify-content: baseline;
+        display: block;
     }
 }
 
