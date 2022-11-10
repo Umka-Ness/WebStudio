@@ -497,13 +497,19 @@ body {
 @media screen and (max-width: 480px) {
   .section-team {
     width: 100%;
-    padding: 0;
+    padding: 94px 94px;
   }
 }
 @media screen and (min-width: 481px) {
   .section-team {
     width: 100%;
-    padding: 0;
+    padding: 94px 94px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-team {
+    width: 100%;
+    padding: 94px 94px;
   }
 }
 
@@ -580,6 +586,7 @@ body {
     pointer-events: none;
     width: 100%;
     position: inherit;
+    gap: 30px;
   }
 }
 
@@ -1320,6 +1327,7 @@ body {
 @media screen and (min-width: 1200px) {
   .pre-ul {
     flex-wrap: nowrap;
+    margin: 0px 215px;
   }
 }
 

@@ -117,11 +117,15 @@
     background-color: #F5F4FA;
     @media screen and (max-width:480px) {
         width: 100%;
-        padding: 0;
+        padding: 94px 94px;
     }
     @media screen and (min-width:481px) {
         width: 100%;
-        padding: 0;
+        padding: 94px 94px;
+    }
+    @media screen and (min-width:1200px) {
+        width: 100%;
+        padding: 94px 94px;
     }
     
 }
@@ -192,6 +196,7 @@
         pointer-events: none;
         width: 100%;
         position:inherit;
+        gap: 30px;
         
     }
 }
