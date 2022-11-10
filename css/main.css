@@ -865,6 +865,13 @@ body {
     justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contant-wrap {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+}
+
 .footer__h3 {
   font-family: var(--main-font);
   font-style: normal;
@@ -982,6 +989,12 @@ body {
   margin-bottom: 20px;
   color: var(--item-bg-color);
 }
+@media screen and (min-width: 1200px) {
+  .footer__h3 {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
 
 .footer__input {
   padding: 15px 0px 15px 16px;
@@ -1082,10 +1095,21 @@ body {
 @media screen and (min-width: 481px) {
   .footer__input-btn {
     display: flex;
+    position: relative;
+    justify-content: center;
     margin: 0 auto;
     top: 20px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer__input-btn {
+    position: relative;
+    display: block;
+    justify-content: center;
+    top: 0;
+  }
+}
+
 .section-btn {
   padding: 94px 0;
 }
@@ -1162,19 +1186,19 @@ body {
 @media screen and (min-width: 481px) {
   .footer {
     position: relative;
-    margin-left: auto;
-    margin-top: 0;
-    justify-content: baseline;
+    margin: 0 auto;
     display: block;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer {
-    position: relative;
-    margin-left: auto;
-    margin-top: 0;
-    justify-content: baseline;
-    display: block;
+    margin-left: 105px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-flax {
+    display: flex;
   }
 }
 
@@ -1212,6 +1236,12 @@ body {
     width: calc((100% - 30px) / 2);
   }
 }
+@media screen and (min-width: 1200px) {
+  .logo {
+    width: calc((100% - 30px) / 3);
+  }
+}
+
 .team-item-footer-bg__item {
   display: flex;
   width: 44px;
@@ -1246,7 +1276,7 @@ body {
 
 .team-item-footer-bg-new {
   display: flex;
-  max-width: 44px;
+  width: 44px;
   height: 44px;
   border-radius: 50%;
   align-items: center;
@@ -1590,6 +1620,12 @@ body {
     font-size: var(--alert-font-size-text);
     line-height: 1.7142857143;
   }
+}
+
+.modal-icon {
+  position: relative;
+  margin: 0 auto;
+  display: block;
 }
 
 .policy-link {
