@@ -30,6 +30,21 @@ li {
   list-style: none;
   padding: 0px;
 }
+@media screen and (max-width: 480px) {
+  li {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) {
+  li {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  li {
+    display: flex;
+  }
+}
 
 address {
   font-style: normal;
@@ -78,6 +93,22 @@ address {
 .cont-disp {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 480px) {
+  .cont-disp {
+    height: 60px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .cont-disp {
+    height: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cont-disp {
+    display: flex;
+    height: inherit;
+  }
 }
 
 .is-hidden-two {
@@ -190,6 +221,22 @@ address {
   gap: 50px;
 }
 
+@media screen and (max-width: 480px) {
+  .nav-display {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) {
+  .nav-display {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav-display {
+    display: flex;
+  }
+}
+
 .item-btn-flax {
   display: flex;
   gap: 8px;
@@ -201,6 +248,21 @@ address {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+@media screen and (max-width: 480px) {
+  .not-nav-item-flax {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) {
+  .not-nav-item-flax {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .not-nav-item-flax {
+    display: flex;
+  }
 }
 
 .figure-bg__ico {
