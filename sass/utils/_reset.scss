@@ -29,15 +29,6 @@ ul {
 li {
     list-style: none;
     padding: 0px;
-    @media screen and(max-width:480px) {
-        display: none;
-    }
-    @media screen and(min-width:481px) {
-        display: none;
-    }
-    @media screen and(min-width:1200px) {
-        display: flex;
-    }
 }
 
 address {
@@ -93,7 +84,6 @@ address {
         height: 60px;
     }
     @media screen and(min-width:1200px) {
-        display: flex;
         height: inherit;
     }
 }

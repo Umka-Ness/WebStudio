@@ -30,21 +30,6 @@ li {
   list-style: none;
   padding: 0px;
 }
-@media screen and (max-width: 480px) {
-  li {
-    display: none;
-  }
-}
-@media screen and (min-width: 481px) {
-  li {
-    display: none;
-  }
-}
-@media screen and (min-width: 1200px) {
-  li {
-    display: flex;
-  }
-}
 
 address {
   font-style: normal;
@@ -106,7 +91,6 @@ address {
 }
 @media screen and (min-width: 1200px) {
   .cont-disp {
-    display: flex;
     height: inherit;
   }
 }
@@ -1215,6 +1199,21 @@ body {
 .mail__studio:hover, .mail__studio:focus {
   color: var(--focus-color);
 }
+@media screen and (max-width: 480px) {
+  .mail__studio {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) {
+  .mail__studio {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mail__studio {
+    display: inherit;
+  }
+}
 
 .cont-color {
   color: var(--alert-text);
@@ -1742,4 +1741,66 @@ body {
   --item-bg-color: #ffffff;
   --main-font: "Roboto", sans-serif;
   --other-font: "Raleway", sans-serif;
+}
+
+.container-mob-menu {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 48px 0px 48px 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+.menu-toggle {
+  margin-left: auto;
+  display: block;
+  background-color: transparent;
+  border: none;
+}
+
+.mail__studio-mob {
+  display: inline-block;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.175;
+  letter-spacing: 0.02em;
+  color: #212121;
+  padding-bottom: 32px;
+  display: block;
+  transition: var(--transform-hover);
+}
+.mail__studio-mob:hover, .mail__studio-mob:focus {
+  color: var(--focus-color);
+}
+
+.mail-padding {
+  padding-bottom: 32px;
+}
+
+.mail-padding-two {
+  padding-bottom: 35px;
+}
+
+.mail-padding-tree {
+  padding-bottom: 302px;
+}
+
+.lisk-studio-mob {
+  display: inline-block;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  padding: 32px 0px;
+  display: block;
+  transition: var(--transform-hover);
+}
+.lisk-studio-mob:hover, .lisk-studio-mob:focus {
+  color: var(--focus-color);
 }/*# sourceMappingURL=main.css.map */
