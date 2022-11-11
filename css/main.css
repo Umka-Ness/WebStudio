@@ -75,26 +75,6 @@ address {
   width: 100%;
 }
 
-.cont-disp {
-  display: flex;
-  justify-content: space-between;
-}
-@media screen and (max-width: 480px) {
-  .cont-disp {
-    height: 60px;
-  }
-}
-@media screen and (min-width: 481px) {
-  .cont-disp {
-    height: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .cont-disp {
-    height: inherit;
-  }
-}
-
 .is-hidden-two {
   opacity: 0;
   visibility: hidden;
@@ -248,6 +228,21 @@ address {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+@media screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) {
+  .nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav {
+    display: inherit;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1895,6 +1890,7 @@ body {
 
 .container-menu-btn {
   display: flex;
+  height: 60px;
 }
 
 .mail-margin {
@@ -1918,6 +1914,8 @@ body {
 }
 
 .logo-mob-menu {
+  display: flex;
+  align-items: center;
   margin-left: 15px;
 }
 

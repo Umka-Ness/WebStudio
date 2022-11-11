@@ -61,6 +61,7 @@
 
 .container-menu-btn {
     display: flex;
+    height: 60px;
 }
 
 .mail-margin {
@@ -84,6 +85,8 @@
 }
 
 .logo-mob-menu {
+    display: flex;
+    align-items: center;
     margin-left: 15px;
 }
 
