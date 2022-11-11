@@ -360,6 +360,27 @@
     width: 10px;
     height: 16px;
     vertical-align: middle;
+    @media screen and(max-width:480px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+    }
+    @media screen and(min-width:481px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+    }
+    @media screen and(min-width:1200px) {
+        opacity: inherit;
+        visibility: inherit;
+        pointer-events: inherit;
+        width: inherit;
+        position: inherit;
+    }
 }
 
 .mail {}
@@ -370,6 +391,27 @@
     height: 12px;
 
     vertical-align: middle;
+    @media screen and(max-width:480px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+    }
+    @media screen and(min-width:481px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+    }
+    @media screen and(min-width:1200px) {
+        opacity: inherit;
+        visibility: inherit;
+        pointer-events: inherit;
+        width: inherit;
+        position: inherit;
+    }
 }
 
 .footer {

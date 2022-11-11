@@ -10,11 +10,56 @@
     &:focus {
             color: var(--focus-color);
         }
+
+    @media screen and (max-width:480px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+        
+    }
+    @media screen and (min-width:481px) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        width: 1px;
+        position: absolute;
+    }
+    @media screen and (min-width:1200px) {
+        opacity: inherit;
+        visibility: inherit;
+        pointer-events: inherit;
+        width: inherit;
+        position: inherit;
+        
+    }
 }
 
 .nav__logo span {
     color: var(--focus-color);
 }
+
+.nav__logo-mob {
+    font-family: var(--other-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+    color: var(--color-all-text);
+    letter-spacing: 0.03em;
+    margin-right: 19px;
+    transition: var(--transform-hover);
+
+    &:focus {
+        color: var(--focus-color);
+    }
+}
+
+.nav__logo-mob span {
+    color: var(--focus-color);
+}
+
+
 
 .logo__footer {
     display: block;

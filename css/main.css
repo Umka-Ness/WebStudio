@@ -126,8 +126,53 @@ address {
 .nav__logo:focus {
   color: var(--focus-color);
 }
+@media screen and (max-width: 480px) {
+  .nav__logo {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 481px) {
+  .nav__logo {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav__logo {
+    opacity: inherit;
+    visibility: inherit;
+    pointer-events: inherit;
+    width: inherit;
+    position: inherit;
+  }
+}
 
 .nav__logo span {
+  color: var(--focus-color);
+}
+
+.nav__logo-mob {
+  font-family: var(--other-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: var(--color-all-text);
+  letter-spacing: 0.03em;
+  margin-right: 19px;
+  transition: var(--transform-hover);
+}
+.nav__logo-mob:focus {
+  color: var(--focus-color);
+}
+
+.nav__logo-mob span {
   color: var(--focus-color);
 }
 
@@ -1226,6 +1271,33 @@ body {
   height: 16px;
   vertical-align: middle;
 }
+@media screen and (max-width: 480px) {
+  .mail__ico {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 481px) {
+  .mail__ico {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mail__ico {
+    opacity: inherit;
+    visibility: inherit;
+    pointer-events: inherit;
+    width: inherit;
+    position: inherit;
+  }
+}
 
 .mail__nav {
   margin-right: 10px;
@@ -1233,6 +1305,33 @@ body {
   width: 16px;
   height: 12px;
   vertical-align: middle;
+}
+@media screen and (max-width: 480px) {
+  .mail__nav {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 481px) {
+  .mail__nav {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mail__nav {
+    opacity: inherit;
+    visibility: inherit;
+    pointer-events: inherit;
+    width: inherit;
+    position: inherit;
+  }
 }
 
 .footer {
@@ -1752,6 +1851,14 @@ body {
   padding: 48px 0px 48px 40px;
   background: #ffffff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+  transition: opacity 300ms linear, visibility 300ms linear;
+}
+.container-mob-menu > .menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }
 
 .menu-toggle {
@@ -1769,7 +1876,6 @@ body {
   line-height: 1.175;
   letter-spacing: 0.02em;
   color: #212121;
-  padding-bottom: 32px;
   display: block;
   transition: var(--transform-hover);
 }
@@ -1777,30 +1883,89 @@ body {
   color: var(--focus-color);
 }
 
-.mail-padding {
-  padding-bottom: 32px;
+@media screen and (min-width: 1200px) {
+  .menu-btn {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
 }
 
-.mail-padding-two {
-  padding-bottom: 35px;
+.container-menu-btn {
+  display: flex;
 }
 
-.mail-padding-tree {
-  padding-bottom: 302px;
+.mail-margin {
+  margin-bottom: 32px;
+}
+
+.mail-margin-two {
+  margin-bottom: 35px;
+}
+
+.mail-margin-tree {
+  margin-bottom: 206px;
+}
+
+.mail-margin-fot-soc {
+  margin-bottom: 64px;
+}
+
+.menu-btn-mr {
+  margin-right: 15px;
+}
+
+.logo-mob-menu {
+  margin-left: 15px;
+}
+
+.mob-soc {
+  display: flex;
+}
+
+.mob-soc__item {
+  display: block;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2222222222;
+  letter-spacing: 0.02em;
+  color: var(--focus-color);
+  padding-right: 10px;
+}
+
+.mob-soc-marg {
+  margin-left: 10px;
+}
+
+.border-soc {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.border-soc:last-child {
+  border: none;
+}
+
+.border-soc:first-child {
+  margin-left: 0px;
 }
 
 .lisk-studio-mob {
   display: inline-block;
   font-family: var(--main-font);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428571429;
-  letter-spacing: 0.02em;
+  font-size: 24px;
+  line-height: 1.1666666667;
   color: var(--color-text);
-  padding: 32px 0px;
   display: block;
   transition: var(--transform-hover);
 }
 .lisk-studio-mob:hover, .lisk-studio-mob:focus {
+  color: var(--focus-color);
+}
+
+.focus-mob {
   color: var(--focus-color);
 }/*# sourceMappingURL=main.css.map */
