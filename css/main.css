@@ -151,9 +151,27 @@ address {
 .nav__logo-mob:focus {
   color: var(--focus-color);
 }
+@media screen and (min-width: 1200px) {
+  .nav__logo-mob {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
 
 .nav__logo-mob span {
   color: var(--focus-color);
+}
+@media screen and (min-width: 1200px) {
+  .nav__logo-mob span {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
 }
 
 .logo__footer {
@@ -1251,7 +1269,19 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .mail__studio {
-    display: inherit;
+    display: inline-block;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    padding: 32px 0px;
+    display: block;
+    transition: var(--transform-hover);
+  }
+  .mail__studio:hover, .mail__studio:focus {
+    color: var(--focus-color);
   }
 }
 
@@ -1286,11 +1316,15 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .mail__ico {
+    margin-right: 10px;
+    fill: currentColor;
+    width: 10px;
+    height: 16px;
+    vertical-align: middle;
     opacity: inherit;
-    visibility: inherit;
-    pointer-events: inherit;
-    width: inherit;
+    pointer-events: all;
     position: inherit;
+    visibility: inherit;
   }
 }
 
@@ -1321,12 +1355,21 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .mail__nav {
+    margin-right: 10px;
+    fill: currentColor;
+    width: 16px;
+    height: 12px;
+    vertical-align: middle;
     opacity: inherit;
-    visibility: inherit;
-    pointer-events: inherit;
-    width: inherit;
+    pointer-events: all;
     position: inherit;
+    visibility: inherit;
   }
+}
+
+.contant-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
@@ -1892,6 +1935,11 @@ body {
 .container-menu-btn {
   display: flex;
   height: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .container-menu-btn {
+    display: none;
+  }
 }
 
 .mail-margin {

@@ -64,6 +64,9 @@
 .container-menu-btn {
     display: flex;
     height: 60px;
+    @media screen and (min-width:1200px) {
+        display: none;
+    }
 }
 
 .mail-margin {
