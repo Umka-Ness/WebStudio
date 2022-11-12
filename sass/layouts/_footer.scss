@@ -72,7 +72,6 @@
     }
     @media screen and (min-width:1200px) {
         flex-wrap: nowrap;
-        width: 100%;
     }
 }
 
@@ -238,6 +237,7 @@
         width: 450px;
     }
     @media screen and (min-width:1200px) {
+        width: 358px;
     }
 }
 .footer__input-btn {
@@ -451,6 +451,7 @@
         position: relative;
         margin: 0 auto;
         display: block;
+        margin-top: 60px;
     }
     @media screen and (min-width:1200px) {
         margin-left: 105px;
@@ -490,6 +491,8 @@
     width: 100%;
     @media screen and (min-width:481px) {
         width: calc((100% - 30px)/2);
+        text-align: center;
+        margin-right: auto;
     }
     @media screen and (min-width:1200px) {
         width: calc((100% - 30px)/3);
@@ -577,7 +580,7 @@
         margin: 0;
     }
     @media screen and (min-width:481px) {
-        margin: 0;
+        margin-right: auto;
     }
     @media screen and (min-width:1200px) {
     }
@@ -615,7 +618,7 @@
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding: 94px 0 94px 0;
+    padding: 60px 0 60px 0;
     
 }
 

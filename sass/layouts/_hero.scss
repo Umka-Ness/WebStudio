@@ -10,10 +10,12 @@
     background-position: center;
     width: 100%;
     @media screen and (max-width: 480px) {
-            width: 100%;
+        width: 100%;
+        padding: 118px 0;
         }
     @media screen and (min-width:481px) and (min-width: 481px) {
         width: 100%;
+        padding: 118px 0;
     }
     @media screen and (min-width:1200px) {
     }
@@ -38,13 +40,21 @@
         font-size: 26px;
         line-height: calc(42 / 26);
     }
-    @media screen and (min-width:481px) and (min-width: 481px) {
+    @media screen and (min-width:481px) {
             width: 360px;
             font-size: 26px;
             line-height: calc(42 / 26);
     }
     @media screen and (min-width:1200px) {
+        font-size: 44px;
+        line-height: calc(60 / 44);
     }
+}
+
+.sec-padding {
+    padding: 94px 0px;
+
+    background-color: #F5F4FA;
 }
 
 .hero__btn {
