@@ -339,25 +339,38 @@
         display: none;
     }
     @media screen and(min-width:481px) {
-        display: none;
+        display: inline-block;
+        font-family: var(--main-font);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+        color: var(--color-text);
+        padding: 32px 0px;
+        display: block;
+        transition: var(--transform-hover);
+        &:hover,
+        &:focus {
+            color: var(--focus-color);
+        
+        }
     }
     @media screen and(min-width:1200px) {
         display: inline-block;
-            font-family: var(--main-font);
-            font-weight: 500;
-            font-size: 14px;
-            line-height: calc(16 / 14);
-            letter-spacing: 0.02em;
-            color: var(--color-text);
-            padding: 32px 0px;
-            display: block;
-            transition: var(--transform-hover);
+        font-family: var(--main-font);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+        color: var(--color-text);
+        padding: 32px 0px;
+        display: block;
+        transition: var(--transform-hover);
+        &:hover,
+        &:focus {
+            color: var(--focus-color);
         
-            &:hover,
-            &:focus {
-                color: var(--focus-color);
-        
-            }
+        }
     }
 }
 
@@ -383,11 +396,15 @@
         position: absolute;
     }
     @media screen and(min-width:481px) {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        width: 1px;
-        position: absolute;
+        margin-right: 10px;
+        fill: currentColor;
+        width: 10px;
+        height: 16px;
+        vertical-align: middle;
+        opacity: inherit;
+        pointer-events: all;
+        position: inherit;
+        visibility: inherit;
     }
     @media screen and(min-width:1200px) {
         margin-right: 10px;
@@ -418,11 +435,15 @@
         position: absolute;
     }
     @media screen and(min-width:481px) {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        width: 1px;
-        position: absolute;
+        margin-right: 10px;
+        fill: currentColor;
+        width: 16px;
+        height: 12px;
+        vertical-align: middle;
+        opacity: inherit;
+        pointer-events: all;
+        position: inherit;
+        visibility: inherit;
     }
     @media screen and(min-width:1200px) {
         margin-right: 10px;

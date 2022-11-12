@@ -117,11 +117,11 @@ address {
 }
 @media screen and (min-width: 481px) {
   .nav__logo {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    width: 1px;
-    position: absolute;
+    opacity: inherit;
+    visibility: inherit;
+    pointer-events: inherit;
+    width: inherit;
+    position: inherit;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -254,7 +254,7 @@ address {
 }
 @media screen and (min-width: 481px) {
   .nav {
-    display: inherit;
+    display: flex;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -298,7 +298,7 @@ address {
 }
 @media screen and (min-width: 481px) {
   .not-nav-item-flax {
-    display: none;
+    display: flex;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1271,7 +1271,19 @@ body {
 }
 @media screen and (min-width: 481px) {
   .mail__studio {
-    display: none;
+    display: inline-block;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    padding: 32px 0px;
+    display: block;
+    transition: var(--transform-hover);
+  }
+  .mail__studio:hover, .mail__studio:focus {
+    color: var(--focus-color);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1314,11 +1326,15 @@ body {
 }
 @media screen and (min-width: 481px) {
   .mail-ico {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    width: 1px;
-    position: absolute;
+    margin-right: 10px;
+    fill: currentColor;
+    width: 10px;
+    height: 16px;
+    vertical-align: middle;
+    opacity: inherit;
+    pointer-events: all;
+    position: inherit;
+    visibility: inherit;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1353,11 +1369,15 @@ body {
 }
 @media screen and (min-width: 481px) {
   .mail-nav {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    width: 1px;
-    position: absolute;
+    margin-right: 10px;
+    fill: currentColor;
+    width: 16px;
+    height: 12px;
+    vertical-align: middle;
+    opacity: inherit;
+    pointer-events: all;
+    position: inherit;
+    visibility: inherit;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1932,6 +1952,15 @@ body {
   color: var(--focus-color);
 }
 
+@media screen and (min-width: 481px) {
+  .menu-btn {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 1px;
+    position: absolute;
+  }
+}
 @media screen and (min-width: 1200px) {
   .menu-btn {
     opacity: 0;
@@ -1945,6 +1974,11 @@ body {
 .container-menu-btn {
   display: flex;
   height: 60px;
+}
+@media screen and (min-width: 481px) {
+  .container-menu-btn {
+    display: none;
+  }
 }
 @media screen and (min-width: 1200px) {
   .container-menu-btn {
