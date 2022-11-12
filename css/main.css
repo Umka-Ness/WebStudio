@@ -241,6 +241,16 @@ address {
   background-color: var(--focus-color);
   border-radius: 2px;
 }
+@media screen and (min-width: 481px) {
+  .active::after {
+    bottom: -20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .active::after {
+    bottom: -1px;
+  }
+}
 
 .nav {
   display: flex;
@@ -298,7 +308,7 @@ address {
 }
 @media screen and (min-width: 481px) {
   .not-nav-item-flax {
-    display: flex;
+    display: block;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1278,7 +1288,7 @@ body {
     line-height: 1.1428571429;
     letter-spacing: 0.02em;
     color: var(--color-text);
-    padding: 32px 0px;
+    padding: 10px 0px;
     display: block;
     transition: var(--transform-hover);
   }

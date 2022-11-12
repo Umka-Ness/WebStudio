@@ -148,6 +148,12 @@
     height: 4px;
     background-color: var(--focus-color);
     border-radius: 2px;
+    @media screen and (min-width:481px) {
+        bottom: -20px;
+    }
+    @media screen and (min-width:1200px) {
+        bottom: -1px;
+    }
 }
 
 .nav {
@@ -192,7 +198,7 @@
         display: none;
     }
     @media screen and(min-width:481px) {
-        display: flex;
+        display: block;
     }
     @media screen and(min-width:1200px) {
         display: flex;
