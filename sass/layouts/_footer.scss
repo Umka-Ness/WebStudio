@@ -342,8 +342,8 @@
         display: inline-block;
         font-family: var(--main-font);
         font-weight: 500;
-        font-size: 14px;
-        line-height: calc(16 / 14);
+        font-size: 12px;
+        line-height: calc(14 / 12);
         letter-spacing: 0.02em;
         color: var(--color-text);
         padding: 10px 0px;
@@ -460,8 +460,8 @@
 
 .contant-nav {
     display: flex;
-    @media screen and (min-width:481px) {
-        
+    @media screen and (max-width:768px) {
+        display: none;
     }
 }
 .footer {

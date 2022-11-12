@@ -51,7 +51,7 @@
 }
 
 .menu-btn {
-    @media screen and (min-width:481px) {
+    @media screen and (min-width:768px) {
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
@@ -70,7 +70,7 @@
 .container-menu-btn {
     display: flex;
     height: 60px;
-    @media screen and (min-width:481px) {
+    @media screen and (min-width:768px) {
         display: none;
     }
     @media screen and (min-width:1200px) {
