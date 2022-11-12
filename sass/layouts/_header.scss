@@ -40,7 +40,7 @@
     color: var(--focus-color);
 }
 
-.nav__logo-mob {
+.nav-logo-mob {
     font-family: var(--other-font);
     font-weight: 700;
     font-size: 26px;
@@ -62,7 +62,7 @@
     }
 }
 
-.nav__logo-mob span {
+.nav-logo-mob span {
     color: var(--focus-color);
     @media screen and (min-width:1200px) {
         opacity: 0;

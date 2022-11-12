@@ -138,7 +138,7 @@ address {
   color: var(--focus-color);
 }
 
-.nav__logo-mob {
+.nav-logo-mob {
   font-family: var(--other-font);
   font-weight: 700;
   font-size: 26px;
@@ -148,11 +148,11 @@ address {
   margin-right: 19px;
   transition: var(--transform-hover);
 }
-.nav__logo-mob:focus {
+.nav-logo-mob:focus {
   color: var(--focus-color);
 }
 @media screen and (min-width: 1200px) {
-  .nav__logo-mob {
+  .nav-logo-mob {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -161,11 +161,11 @@ address {
   }
 }
 
-.nav__logo-mob span {
+.nav-logo-mob span {
   color: var(--focus-color);
 }
 @media screen and (min-width: 1200px) {
-  .nav__logo-mob span {
+  .nav-logo-mob span {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -1289,7 +1289,7 @@ body {
   color: var(--alert-text);
 }
 
-.mail__ico {
+.mail-ico {
   margin-right: 10px;
   fill: currentColor;
   width: 10px;
@@ -1297,7 +1297,7 @@ body {
   vertical-align: middle;
 }
 @media screen and (max-width: 480px) {
-  .mail__ico {
+  .mail-ico {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -1306,7 +1306,7 @@ body {
   }
 }
 @media screen and (min-width: 481px) {
-  .mail__ico {
+  .mail-ico {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -1315,7 +1315,7 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .mail__ico {
+  .mail-ico {
     margin-right: 10px;
     fill: currentColor;
     width: 10px;
@@ -1328,7 +1328,7 @@ body {
   }
 }
 
-.mail__nav {
+.mail-nav {
   margin-right: 10px;
   fill: currentColor;
   width: 16px;
@@ -1336,7 +1336,7 @@ body {
   vertical-align: middle;
 }
 @media screen and (max-width: 480px) {
-  .mail__nav {
+  .mail-nav {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -1345,7 +1345,7 @@ body {
   }
 }
 @media screen and (min-width: 481px) {
-  .mail__nav {
+  .mail-nav {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -1354,7 +1354,7 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .mail__nav {
+  .mail-nav {
     margin-right: 10px;
     fill: currentColor;
     width: 16px;
@@ -1907,7 +1907,7 @@ body {
   border: none;
 }
 
-.mail__studio-mob {
+.mail-studio-mob {
   display: inline-block;
   font-family: var(--main-font);
   font-weight: 500;
@@ -1918,7 +1918,7 @@ body {
   display: block;
   transition: var(--transform-hover);
 }
-.mail__studio-mob:hover, .mail__studio-mob:focus {
+.mail-studio-mob:hover, .mail-studio-mob:focus {
   color: var(--focus-color);
 }
 
