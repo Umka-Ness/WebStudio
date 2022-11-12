@@ -245,12 +245,12 @@ address {
 }
 @media screen and (min-width: 481px) {
   .active::after {
-    bottom: -20px;
+    bottom: -19px;
   }
 }
 @media screen and (min-width: 1200px) {
   .active::after {
-    bottom: -1px;
+    bottom: -2px;
   }
 }
 
@@ -471,6 +471,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
+    width: 100%;
     font-size: 44px;
     line-height: 1.3636363636;
   }
