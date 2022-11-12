@@ -51,7 +51,7 @@ address {
 }
 @media screen and (min-width: 481px) {
   .container {
-    width: 100%;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -309,11 +309,13 @@ address {
 @media screen and (min-width: 481px) {
   .not-nav-item-flax {
     display: block;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .not-nav-item-flax {
     display: flex;
+    margin-left: auto;
   }
 }
 
@@ -1406,9 +1408,7 @@ body {
 
 .contant-nav {
   display: flex;
-  justify-content: space-between;
 }
-
 .footer {
   position: relative;
   margin-left: auto;

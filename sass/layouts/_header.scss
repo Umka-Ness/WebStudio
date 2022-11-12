@@ -199,9 +199,11 @@
     }
     @media screen and(min-width:481px) {
         display: block;
+        margin-left: auto;
     }
     @media screen and(min-width:1200px) {
         display: flex;
+        margin-left: auto;
     }
 }
 
