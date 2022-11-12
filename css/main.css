@@ -245,7 +245,7 @@ address {
 }
 @media screen and (min-width: 481px) {
   .active::after {
-    bottom: -19px;
+    bottom: -18px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1317,6 +1317,11 @@ body {
   .mail__studio:hover, .mail__studio:focus {
     color: var(--focus-color);
   }
+}
+
+.team-name {
+  font-size: 14px;
+  line-height: 1.1428571429;
 }
 
 .cont-color {
