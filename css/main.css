@@ -1491,6 +1491,8 @@ body {
 @media screen and (min-width: 1200px) {
   .logo {
     width: calc((100% - 30px) / 3);
+    text-align: start;
+    margin-right: 0;
   }
 }
 
