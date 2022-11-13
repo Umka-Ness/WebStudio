@@ -55,8 +55,7 @@
     <div class="container-menu-btn">
       <a href="index.html" class="nav-logo-mob logo-mob-menu"><span>Web</span>Studio</a>
 
-      <button class="menu-toggle js-open-menu menu-btn menu-btn-mr" aria-expanded="false" aria-controls="mobile-menu"
-        data-menu-open>
+      <button class="menu-toggle js-open-menu menu-btn menu-btn-mr" data-menu-open>
         <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd"
             d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
@@ -65,23 +64,25 @@
       </button>
     </div>
     <div class="container-mob-menu is-hidden" data-menu>
-      <ul class="menu">
 
-        <button class="menu-toggle js-close-menu menu-btn-mr modal-btn" data-menu-close>
-          <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="modal-btn-ico">
-            <path fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"></path>
-          </svg>
-        </button>
+      <button class="menu-toggle js-close-menu menu-btn-mr modal-btn" data-menu-close>
+        <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="modal-btn-ico">
+          <path fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
 
-        <div class="mail-margin-tree">
+      <div class="mail-margin-tree">
+        <ul>
           <li><a href="index.html" class="mail-studio-mob mail-margin focus-mob">Студія</a></li>
           <li><a href="portfolio.html" class="mail-studio-mob mail-margin-two">Портфоліо</a></li>
           <li><a href="#" class="mail-studio-mob">Контакти</a></li>
-        </div>
+        </ul>
+      </div>
 
-        <div>
+      <div>
+        <ul>
           <li class="mail-margin">
             <a href="tel:+380961111111" class="lisk-studio-mob focus-mob"> <svg class="mail-ico">
                 <use href="./symbol-defs.svg#icon-tel-header" width="10" height="16"></use>
@@ -91,17 +92,17 @@
             <a href="mailto:info@devstudio.com" class="lisk-studio-mob"> <svg class="mail-nav">
                 <use href="./symbol-defs.svg#icon-mail-header" width="16" height="12"></use>
               </svg>info@devstudio.com</a>
-        </div>
-        <div>
-          <ul class="mob-soc ">
-            <li class="border-soc"><a href="" class="mob-soc__item">Instagram</a></li>
-            <li class="border-soc"><a href="" class="mob-soc__item mob-soc-marg">Twitter</a></li>
-            <li class="border-soc"><a href="" class="mob-soc__item mob-soc-marg">Facebook</a></li>
-            <li class="border-soc"><a href="" class="mob-soc__item mob-soc-marg">LinkedIn</a></li>
-          </ul>
-        </div>
-      </ul>
-
+        </ul>
+      </div>
+      <div>
+        <ul class="mob-soc ">
+          <li class="border-soc"><a href="" class="mob-soc__item">Instagram</a></li>
+          <li class="border-soc"><a href="" class="mob-soc__item mob-soc-marg">Twitter</a></li>
+          <li class="border-soc"><a href="" class="mob-soc__item mob-soc-marg">Facebook</a></li>
+          <li class="border-soc"><a href="" class="mob-soc__item mob-soc-marg">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
   </header>
   <main>
     <section class="hero">
@@ -206,11 +207,11 @@
         <ul class="team team-one">
           <li class="team-hover">
             <picture class="pic">
-              <source srcset="./images\img(26)x1-desc.jpg 1x, ./images\img(26)x2-desc.jpg 2x"
+              <source srcset="./images/img(26)x1-desc.jpg 1x, ./images/img(26)x2-desc.jpg 2x"
                 media="(min-width: 1200px)" />
-              <source srcset="./images\img(26)x1-tab.jpg 1x, ./images\img(26)x2-tab.jpg 2x"
+              <source srcset="./images/img(26)x1-tab.jpg 1x, ./images/img(26)x2-tab.jpg 2x"
                 media="(min-width: 768px)" />
-              <source srcset="./images\img(20)х1.jpg 1x, ./images\img(20)х2.jpg 2x" media="(max-width: 480px)" />
+              <source srcset="./images/img(20)х1.jpg 1x, ./images/img(20)х2.jpg 2x" media="(max-width: 480px)" />
 
 
               <img src="./images/img(3).jpg" alt="Фото мужчины, около 25 лет в рубашке и очках с широкой улыбкой"
@@ -256,10 +257,10 @@
 
           <li class="team-hover">
             <picture class="pic">
-              <source srcset="./images\img(24)x1desc.jpg 1x, ./images\img(24)x2desc.jpg 2x"
+              <source srcset="./images/img(24)x1desc.jpg 1x, ./images/img(24)x2desc.jpg 2x"
                 media="(min-width: 1200px)" />
-              <source srcset="./images\img(24)x1tab.jpg 1x, ./images\img(24)x2tab.jpg 2x" media="(min-width: 768px)" />
-              <source srcset="./images\img(24)x1.jpg 1x, ./images\img(24)x2.jpg 2x" media="(max-width: 480px)" />
+              <source srcset="./images/img(24)x1tab.jpg 1x, ./images/img(24)x2tab.jpg 2x" media="(min-width: 768px)" />
+              <source srcset="./images/img(24)x1.jpg 1x, ./images/img(24)x2.jpg 2x" media="(max-width: 480px)" />
 
               <img src="./images/img(4).jpg" alt="Фото девушки в строгом костюме,скрестила руки и улыбается"
                 width="450" />
@@ -302,10 +303,10 @@
 
           <li class="team-hover">
             <picture class="pic">
-              <source srcset="./images\img(27)x1desc.jpg 1x, ./images\img(27)x2desc.jpg 2x"
+              <source srcset="./images/img(27)x1desc.jpg 1x, ./images/img(27)x2desc.jpg 2x"
                 media="(min-width: 1200px)" />
-              <source srcset="./images\img(27)x1tab.jpg 1x, ./images\img(27)x2tab.jpg 2x" media="(min-width: 768px)" />
-              <source srcset="./images\img(27)x1.jpg 1x, ./images\img(27)x2.jpg 2x" media="(max-width: 480px)" />
+              <source srcset="./images/img(27)x1tab.jpg 1x, ./images/img(27)x2tab.jpg 2x" media="(min-width: 768px)" />
+              <source srcset="./images/img(27)x1.jpg 1x, ./images/img(27)x2.jpg 2x" media="(max-width: 480px)" />
               <img src="./images/img(5).jpg" alt="Фото молодого человека который смотрим в сторону и улыбается "
                 width="450" />
             </picture>
@@ -347,10 +348,10 @@
 
           <li class="team-hover">
             <picture class="pic">
-              <source srcset="./images\img(28)x1desc.jpg 1x, ./images\img(28)x2desc.jpg 2x"
+              <source srcset="./images/img(28)x1desc.jpg 1x, ./images/img(28)x2desc.jpg 2x"
                 media="(min-width: 1200px)" />
-              <source srcset="./images\img(28)x1tab.jpg 1x, ./images\img(28)x2tab.jpg 2x" media="(min-width: 768px)" />
-              <source srcset="./images\img(28)x1.jpg 1x, ./images\img(28)x2.jpg 2x" media="(max-width: 480px)" />
+              <source srcset="./images/img(28)x1tab.jpg 1x, ./images/img(28)x2tab.jpg 2x" media="(min-width: 768px)" />
+              <source srcset="./images/img(28)x1.jpg 1x, ./images/img(28)x2.jpg 2x" media="(max-width: 480px)" />
               <img src="./images/img(6).jpg"
                 alt="Фото молодого человека который смотрит перед собой в чёрной майке,очень харизматичен"
                 width="450" />
